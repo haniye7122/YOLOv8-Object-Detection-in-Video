@@ -8,6 +8,5 @@ Visualize detected objects with bounding boxes and class labels.
 Before running the code, ensure you have Anaconda installed on your system.
 Install Anaconda: If you don't have it yet, you can download and install Anaconda from [here](https://docs.anaconda.com/anaconda/install/windows/). <br>
 Create a new Anaconda environment for the project:
-
 `conda create -n yolov8-env python=3.8`
 
