@@ -13,10 +13,10 @@ Activate the environment:<br>
 `conda activate yolov8-env`<br>
 Install the required dependencies:<br>
 `Conda install pytorch torchvision torchaudio cpuonly –c pytorch`
-#YOLOv8 Installation
+# YOLOv8 Installation
 Make sure you have the latest version of YOLOv8 from Ultralytics.<br>
-`pip install ultralytics`
-#Running the Code in anaconda prompt.
+`pip install ultralytics`<br>
+# Running the Code in anaconda prompt.<br>
 `Yolo task=detect mode=predict model=yolov8n.pt source =“path”`<br>
 ,change path to your video or image path.
 
