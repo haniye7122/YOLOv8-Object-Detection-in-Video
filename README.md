@@ -1,6 +1,6 @@
 # YOLOv8-Object-Detection-in-Video
 This repository demonstrates how to use YOLOv8 for object detection in video using Python within an Anaconda environment.<br>
-  The project leverages the Ultralytics YOLOv8 model to detect objects frame-by-frame in a video.
+The project leverages the Ultralytics YOLOv8 model to detect objects frame-by-frame in a video.
 # Features
 Detect objects in video files using the YOLOv8 model.<br>
 Visualize detected objects with bounding boxes and class labels.
@@ -18,7 +18,7 @@ Make sure you have the latest version of YOLOv8 from Ultralytics.<br>
 `pip install ultralytics`<br>
 # Running the Code in anaconda prompt.<br>
 `Yolo task=detect mode=predict model=yolov8n.pt source =“path”`<br>
-,change path to your video or image path.
+,change path to your video or image path. We used YOLOv8 model for detecting objects in a video of Elgoli park in Tabriz,Iran. <br>
 
 
 
