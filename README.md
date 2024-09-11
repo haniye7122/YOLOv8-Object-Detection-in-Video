@@ -7,6 +7,19 @@ Visualize detected objects with bounding boxes and class labels.
 # Requirements
 Before running the code, ensure you have Anaconda installed on your system.<br>
 Install Anaconda: If you don't have it yet, you can download and install Anaconda from [here](https://docs.anaconda.com/anaconda/install/windows/). <br>
-Create a new Anaconda environment for the project:<br>
-`conda create -n yolov8-env python=3.8`
+Create a new Anaconda environment for the project using anaconda prompt(Administrator mode):<br>
+`conda create -n yolov8-env python=3.8`<br>
+Activate the environment:<br>
+`conda activate yolov8-env`<br>
+Install the required dependencies:<br>
+`Conda install pytorch torchvision torchaudio cpuonly –c pytorch`
+#YOLOv8 Installation
+Make sure you have the latest version of YOLOv8 from Ultralytics.<br>
+`pip install ultralytics`
+#Running the Code in anaconda prompt.
+`Yolo task=detect mode=predict model=yolov8n.pt source =“path”`<br>
+,change path to your video or image path.
+
+
+
 
