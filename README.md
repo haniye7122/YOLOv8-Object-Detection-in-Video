@@ -5,9 +5,11 @@ The project leverages the Ultralytics YOLOv8 model to detect objects frame-by-fr
 Detect objects in video files using the YOLOv8 model.<br>
 Visualize detected objects with bounding boxes and class labels.
 # Requirements
-Before running the code, ensure you have Anaconda installed on your system.<br>
-Install Anaconda: If you don't have it yet, you can download and install Anaconda from [here](https://docs.anaconda.com/anaconda/install/windows/). <br>
-Create a new Anaconda environment for the project using anaconda prompt(Administrator mode):<br>
+To run this project, you need to have Anaconda installed on your system. Follow the steps below to set up your environment:
+
+Install Anaconda: If you haven't installed Anaconda yet, you can download and install it from [here](https://docs.anaconda.com/anaconda/install/windows/). <br>
+
+Create a New Anaconda Environment: Open the Anaconda Prompt in Administrator mode and execute the following command:<br>
 `conda create -n yolov8-env python=3.8`<br>
 Activate the environment:<br>
 `conda activate yolov8-env`<br>
